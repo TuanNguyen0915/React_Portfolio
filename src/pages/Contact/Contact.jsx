@@ -1,0 +1,9 @@
+const Contact = () => {
+  return (
+  <>
+  This is contact page
+  </> 
+  )
+}
+ 
+export default Contact

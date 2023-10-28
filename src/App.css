@@ -1,0 +1,27 @@
+h1, li, a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(255,217,15);
+  color: #111;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnLight {
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: none;
+  backdrop-filter: blur(18px);
+  transition: 0.3s;
+}
