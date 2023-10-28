@@ -50,7 +50,7 @@
   opacity: 1;
 }
 
-.footerIcons.leftIcons:hover {
+.footerIcons.leftIcons:hover, .info:hover {
   transform: translateX(.5rem);
   color: rgba(255, 217, 15);
   opacity: 1;

@@ -17,9 +17,10 @@ const Footer = () => {
 
             <div>
               <p>
-                <FaMailBulk className={`${styles.footerIcons} ${styles.leftIcons}`} /> <span className={styles.info}>
-                  <Link to="mailto:tuan.nat915@gmail.com?subject=Hello from your portfolio">tuan.nat915@gmail.com</Link>
-                </span>
+                <Link to="mailto:tuan.nat915@gmail.com?subject=Hello from your portfolio">
+                  <FaMailBulk className={`${styles.footerIcons} ${styles.leftIcons}`} />
+                  <span className={styles.info}>tuan.nat915@gmail.com</span>
+                </Link>
               </p>
             </div>
           </div>

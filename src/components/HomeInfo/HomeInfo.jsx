@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 // css
 import styles from "./HomeInfo.module.css"
-import homeIMG from "../../assets/images/2.jpg"
+import homeIMG from "../../assets/images/home-img.jpg"
 
 const HomeBG = () => {
   return (
