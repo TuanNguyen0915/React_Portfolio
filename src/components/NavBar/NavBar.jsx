@@ -1,5 +1,6 @@
 // modules
 import { Link } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 import { useState, useEffect } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 
@@ -30,13 +31,13 @@ const NavBar = () => {
       </div>
       <ul className={click ? `${styles.navbarMenu} ${styles.active}` : styles.navbarMenu}>
         <li>
-          <Link to='/'>Home</Link>
+          <HashLink smooth to='/#homeSection' onClick={handleOnClick}>Home</HashLink>
         </li>
         <li>
           <Link to='/project'>Project</Link>
         </li>
         <li>
-          <Link to='/about'>About</Link>
+          <HashLink smooth to='/#footerSection' onClick={handleOnClick}>About</HashLink>
         </li>
         <li>
           <Link to='/contact'>Contact</Link>

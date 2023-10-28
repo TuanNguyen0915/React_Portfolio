@@ -1,4 +1,7 @@
-h1, li, a {
+h1,
+li,
+a,
+span {
   color: white;
   font-weight: 600;
   text-decoration: none;
@@ -8,20 +11,23 @@ h1, li, a {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(255,217,15);
+  background: rgb(255, 217, 15);
   color: #111;
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
 }
 
-.btnLight {
+.btn-light {
   background: transparent;
+  /* backdrop-filter: blur(40px); */
   color: #fff;
 }
 
 .btn:hover {
-  background: none;
+  background: rgba(204, 204, 204, 0.2);
+  color: #fff;
   backdrop-filter: blur(18px);
-  transition: 0.3s;
 }

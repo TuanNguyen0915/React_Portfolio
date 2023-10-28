@@ -1,12 +1,14 @@
 // components
 import NavBar from "../../components/NavBar/NavBar"
-import HomeBG from "../../components/HomeBG/HomeBG"
+import HomeBG from "../../components/HomeInfo/HomeInfo"
+import Footer from "../../components/Footer/Footer"
 
 const Home = () => {
   return (
-    <div>
+    <div id='homeSection'>
       <NavBar />
       <HomeBG />
+      <Footer />
     </div>
   )
 }
