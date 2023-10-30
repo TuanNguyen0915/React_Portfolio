@@ -37,7 +37,7 @@ const NavBar = () => {
           <Link to='/project'>Project</Link>
         </li>
         <li>
-          <HashLink smooth to='/#footerSection' onClick={handleOnClick}>About</HashLink>
+          <HashLink  to='/about'>About</HashLink>
         </li>
         <li>
           <Link to='/contact'>Contact</Link>
